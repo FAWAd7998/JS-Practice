@@ -169,43 +169,17 @@ let a = [
 	" Where would you find an elephan The same place you lost her.",
 ];
 
-
-
-
-
 // method no 01
 
 // let element = document.getElementsByClassName('abcd')[0];
 // element.innerText = a[Math.floor(Math.random(1, 101)*9)]
 // console.log()
 
-
-
-
-
-
-
-
-
-
-
 // method no 02
 
 // let b = Math.floor(Math.random() * a.length);
 // // console.log(b);
 // abcde.innerHTML = a[b];
-
-
-
-
-
-
-
-
-
-
-
-
 
 // // without making variable
 // let c= document.getElementsByClassName("abcd")[0];
@@ -216,24 +190,45 @@ let a = [
 // // console.log(c);
 // abcde.innerHTML = a[Math.floor(Math.random() * a.length)];
 
-
-
-
-
-
-
-
 // sorting function
 
+// let n = [
+// 	234, 43, 4, 5665, 6656, 4545, 2332, 2323, 34, 345, 7898989, 6, 7, 3, 1,
+// ];
 
-let n=[234,43,4,5665,6656,4545,2332,2323,34,345,7898989,6,7,3,1]
+// let d = n.sort((a, b) => {
+// 	return b - a;
+// });
 
-let d= n.sort(
-    (a,b)=>{
-   return b-a;
-    }
-  );
-
-console.log(d)
+// console.log(d);
 
 // btn.addEventListner('click', )
+
+function anotherCallback(number, anotherCallback){
+	console.log(number)
+	anotherCallback()
+}
+
+async function execute(url, callBack){
+	let response = await fetch(url);
+	console.log(response);
+	callBack();
+}
+
+execute('https://jsonblob.com/1060962583322050560', function(){
+	console.log('callback')
+	anotherCallback(2, function(){
+		console.log('another Call back');
+	});
+});
+
+
+let obj = {
+	a:{
+		name:'a'
+	},
+	b:{
+		name:'b'
+	},
+}
+console.log(obj?.c?.name)
