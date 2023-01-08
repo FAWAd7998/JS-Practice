@@ -231,4 +231,4 @@ let obj = {
 		name:'b'
 	},
 }
-console.log(obj?.c?.name)
+console.log(obj?.c?.name);
