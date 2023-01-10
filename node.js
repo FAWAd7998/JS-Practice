@@ -40,8 +40,11 @@
 
 // //creating clock using java script
 
+// clock()
+
+
 function clock() {
-    let now =  Date();
+    let now =  new Date();
     let hours = now.getHours();
     let minutes = now.getMinutes();
     let seconds = now.getSeconds();
@@ -52,9 +55,10 @@ function clock() {
     seconds = (seconds < 10) ? "0" + seconds : seconds;
   
     let time = hours + ":" + minutes + ":" + seconds;
-    
+    console.log(time)  
    
     document.getElementById("clock").innerHTML = time;
+
   }
   
   setInterval(clock, 1000);
