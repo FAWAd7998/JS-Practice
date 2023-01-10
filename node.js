@@ -55,11 +55,18 @@ function clock() {
     seconds = (seconds < 10) ? "0" + seconds : seconds;
   
     let time = hours + ":" + minutes + ":" + seconds;
-    console.log(time)  
-   
-    document.getElementById("clock").innerHTML = time;
+    // console.log(time)  ;
 
+    
+    document.getElementById("clock").innerHTML = time;
+    
   }
   
   setInterval(clock, 1000);
   
+
+
+//  let a= new Date();
+//   console.log( Date.toLocaleString('en-US', {
+//       hour12: false,
+//     }))
