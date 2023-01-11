@@ -43,26 +43,26 @@
 // clock()
 
 
-function clock() {
+function clocktime() {
     let now =  new Date();
     let hours = now.getHours();
     let minutes = now.getMinutes();
     let seconds = now.getSeconds();
     
     // ternary operator
-    hours = (hours < 10) ? "0" + hours : hours;
-    minutes = (minutes < 10) ? "0" + minutes : minutes;
-    seconds = (seconds < 10) ? "0" + seconds : seconds;
+   let  a = (hours < 10) ? "0" + hours : hours;
+   let  b = (minutes < 10) ? "0" + minutes : minutes;
+   let  c = (seconds < 10) ? "0" + seconds : seconds;
   
-    let time = hours + ":" + minutes + ":" + seconds;
-    // console.log(time)  ;
+    let time = a + ":" + b + ":" + c;
+    console.log(time)  ;
 
-    
+                            
     document.getElementById("clock").innerHTML = time;
     
   }
   
-  setInterval(clock, 1000);
+  setInterval(clocktime , 1000);
   
 
 
