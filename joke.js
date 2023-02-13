@@ -50,10 +50,6 @@
 // // // // // // }
 // // // // // // console.log("you are adult now you can even drive")
 
-
-
-
-
 // // // // // // for loops
 // // // // // // let b = 0;
 // // // // // // let c= promt('what is your age');
@@ -77,34 +73,20 @@
 // // // // // //   b++;
 // // // // // // }
 
-
-
-
 // // // // // const abc=(a,b,c)=>
 // // // // //   {
 // // // // //   // console.log("hello how you  are");
 // // // // //     return (a,b,c);
 // // // // //     }
 
-
 // // // // // console.log(abc);
-
-
-
 
 // // // // let a=12;
 // // // // let b=13;
 
-
-
-
-
 // // // // const abc=()=>{
 
 // // // // }
-
-
-
 
 // // // let a="hello my work is"
 // // // console.log( a.slice);
@@ -113,12 +95,7 @@
 // // // a= Number.parseInt(a);
 // // // console.log(typeof (a));
 
-
 // // // console.log(b.slice(2))
-
-
-
-
 
 // // let a = ("[11,22,33,44,55,66,77,88,99,10]");
 // // let b = ("[a,b,d,g]");
@@ -126,11 +103,6 @@
 // // // for (let i = 0; i <= a.length; i++) {
 // //   console.log(${a} + "is bigger then" + ${b});
 // // // }
-
-
-
-
-
 
 // //Adding Numbers
 
@@ -148,160 +120,153 @@
 //   // console.log(b)
 // }
 
-
 // // aa.forEach (this => {
 // //   document.write(this + "<br>");
 // // })
-
-
 
 // //for each loop
 // aa.forEach(function(abcd){
 //   // console.log(abcd)
 // })
 
-
 // ;
 
+let a = [
+  " What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
 
+  " Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
 
+  " Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
 
-// // let a = [
-// // 	" What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
+  " What musical instrument is found in the bathroom? A tuba toothpaste.",
 
-// // 	" Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
+  " Related: Funny Christian Jokes",
 
-// // 	" Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
+  "Why did the kid bring a ladder to school? Because she wanted to go to high school.",
 
-// // 	" What musical instrument is found in the bathroom? A tuba toothpaste.",
+  "  What do you call a dog magician? A labracadabrador.",
 
-// // 	" Related: Funny Christian Jokes",
+  " Where would you find an elephan The same place you lost her.",
+  "What did one toilet say to the other You look a bit flushed",
 
-// // 	"Why did the kid bring a ladder to school? Because she wanted to go to high school.",
+  " What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
 
-// // 	"  What do you call a dog magician? A labracadabrador.",
+  " Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
 
-// // 	" Where would you find an elephan The same place you lost her.",
-// // 	"What did one toilet say to the other You look a bit flushed",
+  " Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
 
-// // 	" What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
+  " What musical instrument is found in the bathroom? A tuba toothpaste.",
 
-// // 	" Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
+  " Related: Funny Christian Jokes",
 
-// // 	" Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
+  "Why did the kid bring a ladder to school? Because she wanted to go to high school.",
 
-// // 	" What musical instrument is found in the bathroom? A tuba toothpaste.",
+  "  What do you call a dog magician? A labracadabrador.",
 
-// // 	" Related: Funny Christian Jokes",
+  " Where would you find an elephan The same place you lost her.",
+  "What did one toilet say to the other You look a bit flushed",
 
-// // 	"Why did the kid bring a ladder to school? Because she wanted to go to high school.",
+  " What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
 
-// // 	"  What do you call a dog magician? A labracadabrador.",
+  " Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
 
-// // 	" Where would you find an elephan The same place you lost her.",
-// // 	"What did one toilet say to the other You look a bit flushed",
+  " Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
 
-// // 	" What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
+  " What musical instrument is found in the bathroom? A tuba toothpaste.",
 
-// // 	" Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
+  " Related: Funny Christian Jokes",
 
-// // 	" Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
+  "Why did the kid bring a ladder to school? Because she wanted to go to high school.",
 
-// // 	" What musical instrument is found in the bathroom? A tuba toothpaste.",
+  "  What do you call a dog magician? A labracadabrador.",
 
-// // 	" Related: Funny Christian Jokes",
+  " Where would you find an elephan The same place you lost her.",
+  "What did one toilet say to the other You look a bit flushed",
 
-// // 	"Why did the kid bring a ladder to school? Because she wanted to go to high school.",
+  " What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
 
-// // 	"  What do you call a dog magician? A labracadabrador.",
+  " Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
 
-// // 	" Where would you find an elephan The same place you lost her.",
-// // 	"What did one toilet say to the other You look a bit flushed",
+  " Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
 
-// // 	" What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
+  " What musical instrument is found in the bathroom? A tuba toothpaste.",
 
-// // 	" Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
+  " Related: Funny Christian Jokes",
 
-// // 	" Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
+  "Why did the kid bring a ladder to school? Because she wanted to go to high school.",
 
-// // 	" What musical instrument is found in the bathroom? A tuba toothpaste.",
+  "  What do you call a dog magician? A labracadabrador.",
 
-// // 	" Related: Funny Christian Jokes",
+  " Where would you find an elephan The same place you lost her.",
+  "What did one toilet say to the other You look a bit flushed",
 
-// // 	"Why did the kid bring a ladder to school? Because she wanted to go to high school.",
+  " What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
 
-// // 	"  What do you call a dog magician? A labracadabrador.",
+  " Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
 
-// // 	" Where would you find an elephan The same place you lost her.",
-// // 	"What did one toilet say to the other You look a bit flushed",
+  " Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
 
-// // 	" What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
+  " What musical instrument is found in the bathroom? A tuba toothpaste.",
 
-// // 	" Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
+  " Related: Funny Christian Jokes",
 
-// // 	" Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
+  "Why did the kid bring a ladder to school? Because she wanted to go to high school.",
 
-// // 	" What musical instrument is found in the bathroom? A tuba toothpaste.",
+  "  What do you call a dog magician? A labracadabrador.",
 
-// // 	" Related: Funny Christian Jokes",
+  " Where would you find an elephan The same place you lost her.",
+  "What did one toilet say to the other You look a bit flushed",
 
-// // 	"Why did the kid bring a ladder to school? Because she wanted to go to high school.",
+  " What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
 
-// // 	"  What do you call a dog magician? A labracadabrador.",
+  " Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
 
-// // 	" Where would you find an elephan The same place you lost her.",
-// // 	"What did one toilet say to the other You look a bit flushed",
+  " Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
 
-// // 	" What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
+  " What musical instrument is found in the bathroom? A tuba toothpaste.",
 
-// // 	" Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
+  " Related: Funny Christian Jokes",
 
-// // 	" Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
+  "Why did the kid bring a ladder to school? Because she wanted to go to high school.",
 
-// // 	" What musical instrument is found in the bathroom? A tuba toothpaste.",
+  "  What do you call a dog magician? A labracadabrador.",
 
-// // 	" Related: Funny Christian Jokes",
+  " Where would you find an elephan The same place you lost her.",
+  "What did one toilet say to the other You look a bit flushed",
 
-// // 	"Why did the kid bring a ladder to school? Because she wanted to go to high school.",
+  " What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
 
-// // 	"  What do you call a dog magician? A labracadabrador.",
+  " Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
 
-// // 	" Where would you find an elephan The same place you lost her.",
-// // 	"What did one toilet say to the other You look a bit flushed",
+  " Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
 
-// // 	" What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
+  " What musical instrument is found in the bathroom? A tuba toothpaste.",
 
-// // 	" Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
+  " Related: Funny Christian Jokes",
 
-// // 	" Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
+  "Why did the kid bring a ladder to school? Because she wanted to go to high school.",
 
-// // 	" What musical instrument is found in the bathroom? A tuba toothpaste.",
+  "  What do you call a dog magician? A labracadabrador.",
 
-// // 	" Related: Funny Christian Jokes",
+  " Where would you find an elephan The same place you lost her.",
+  "What did one toilet say to the other You look a bit flushed",
 
-// // 	"Why did the kid bring a ladder to school? Because she wanted to go to high school.",
+  " What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
 
-// // 	"  What do you call a dog magician? A labracadabrador.",
+  " Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
 
-// // 	" Where would you find an elephan The same place you lost her.",
-// // 	"What did one toilet say to the other You look a bit flushed",
+  " Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
 
-// // 	" What do you think of that new diner on the moon Food was good, but there really wasnt much atmosphere.",
+  " What musical instrument is found in the bathroom? A tuba toothpaste.",
 
-// // 	" Why did the dinosaur cross the road  Because the chicken wasnt born yet.",
+  " Related: Funny Christian Jokes",
 
-// // 	" Why cant Elsa from Frozen have a balloon  Because she will let it go, let it go. ",
+  "Why did the kid bring a ladder to school? Because she wanted to go to high school.",
 
-// // 	" What musical instrument is found in the bathroom? A tuba toothpaste.",
+  "  What do you call a dog magician? A labracadabrador.",
 
-// // 	" Related: Funny Christian Jokes",
-
-// // 	"Why did the kid bring a ladder to school? Because she wanted to go to high school.",
-
-// // 	"  What do you call a dog magician? A labracadabrador.",
-
-// // 	" Where would you find an elephan The same place you lost her.",
-// // ];
+  " Where would you find an elephan The same place you lost her.",
+];
 
 // // // method no 01
 
@@ -356,25 +321,27 @@
 // // 	});
 // // });
 
-// // let obj = {
-// // 	a:{
-// // 		name:'a'
-// // 	},
-// // 	b:{
-// // 		name:'b'
-// // 	},
-// // }
-// // console.log(obj?.c?.name);
-async function next(a, b) {
-	let c = await fetch(a);
-	console.log(c);
-	b();
+// let obj = {
+// 	a:{
+// 		name:'a'
+// 	},
+// 	b:{
+// 		name:'b'
+// 	},
+// 	c:{
+// 		name:'b'
+// 	},
+// }
+// console.log(obj?.c?.name);
+function next(b, c , index) {
+  for (let z = 0; z < a.length; z++) {
+    console.log(a[z]);
+  }
+  c();
 }
 
-next("https://jsonblob.com/1060962583322050560", function () {
-	console.log("its wroking");
+next("true", function () {
+  console.log("its wroking");
 });
 
-
-
-// create a function to add two variables 
+// create a function to add two variables

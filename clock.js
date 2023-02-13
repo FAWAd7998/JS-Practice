@@ -104,11 +104,11 @@
 
 // setInterval(time, 10);
 
-function now() {
-	return console.log("this is not just a arrow function......");
-}
+// function now() {
+// 	return console.log("this is not just a arrow function......");
+// }
 
-now();
+// now();
 
 //write a function in java script?
 //
@@ -119,3 +119,23 @@ now();
 // ;
 
 // myFunction();
+
+function abcd() {
+	let d = new Date();
+	let hours = d.getHours();
+	let minutes = d.getMinutes();
+	let seconds = d.getSeconds();
+	let milisec = d.getMilliseconds();
+
+	let h = hours < 10 ? "0" + hours : hours;
+	let m = minutes < 10 ? "0" + minutes : minutes;
+	let s = seconds < 10 ? "0" + seconds : seconds;
+	let ms = milisec < 10 ? "0" + milisec : milisec;
+
+	let time = h + ":" + m + ":" + s + ":" + ms;
+	// console.log(time);
+
+	document.getElementById("clock").innerHTML = time;
+}
+
+setInterval(abcd, 10);
